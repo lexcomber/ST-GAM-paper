@@ -1,5 +1,24 @@
-# ST-GAM-paper
+# Where, When and How? Specifying spatially and temporally varying coefficent models using GAMs with Gaussian Process splines
 
+Alexis Comber<sup>1*</sup>, Paul Harris<sup>2</sup>, Naru Tsutsumida<sup>3</sup> , Jennie Gray<sup>4</sup>  and Chris Brunsdon<sup>5</sup> 
+author: "Alexis Comber^1^*, Paul Harris^2^, Naru Tsutsumida^3^, Jennie Gray^4^ and Chris Brunsdon^5^"
+
+<sup>1</sup> School of Geography, University of Leeds, Leeds, UK.\
+<sup>2</sup> Sustainable Agriculture Sciences North Wyke, Rothamsted Research, Okehampton, UK.\
+<sup>3</sup> Department of Information and Computer Sciences, Saitama University, Japan.\
+<sup>4</sup> Geographic Data Science Lab, University of Liverpool, UK.\
+<sup>5</sup> National Centre for Geocomputation, Maynooth University, Ireland.\
+<sup>*</sup> contact author: a.comber@leeds.ac.uk
+
+## Abstract
+This paper describes the extension of recently proposed GAM-based approaches to spatially varying coefficient (SVC) models into the temporal domain. The Geographical and Temporal Gaussian Process GAM (GTGP-GAM) creates spatially and temporally varying coefficient (STVC) regression models that allow relationships to vary over time as well as space. A key issue in such models how to determine and specify the space and time interactions. The paper uses 2 case studies: a regional house price case study from the UK over 10 years and a national livestock case study from Mongolia over 16 years. Multiple GAM models were created for each case study with Gaussian Process splines (smooths) for each covariate parameterised with location and time in different ways within the splines, allowing space and time to interact in different ways in each model for each covariate. The models were evaluated using BIC and the relative plausibility of each model was determined. For one of the case studies there was considerable doubt over the best form of space time model so it was subject to Bayesian Model Averaging. This allows the results of competing models to be combined. The discussion reflects on the GTGP-GAM approach and compares it with GTWR. 
+
+This paper has been submitted to IJGIS.
+
+## Code
+To run the analysis in this paper you should download the the R script `space_time_IJGIS_figshare` and the 4 data files, including the input datasets (`mn_soum.RData` and `sy_lsoa_permission.RData`) and the pre-compiled results for which the code is given (`mod_comp_sy.RData` and `mod_comp_mn.RData`). Package and other info is below. The data files and supporting scripts will need will need to be locally available. The code recreates the resultsin the same sequence as the paper. 
+
+If you have any problems with data / code / versions etc please contact Lex Comber at the email above.
 
 ```{r}
 sessionInfo()
