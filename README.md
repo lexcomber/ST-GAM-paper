@@ -1,7 +1,6 @@
 # Where, When and How? Specifying spatially and temporally varying coefficent models using GAMs with Gaussian Process splines
 
 Alexis Comber<sup>1*</sup>, Paul Harris<sup>2</sup>, Naru Tsutsumida<sup>3</sup> , Jennie Gray<sup>4</sup>  and Chris Brunsdon<sup>5</sup> 
-author: "Alexis Comber^1^*, Paul Harris^2^, Naru Tsutsumida^3^, Jennie Gray^4^ and Chris Brunsdon^5^"
 
 <sup>1</sup> School of Geography, University of Leeds, Leeds, UK.\
 <sup>2</sup> Sustainable Agriculture Sciences North Wyke, Rothamsted Research, Okehampton, UK.\
